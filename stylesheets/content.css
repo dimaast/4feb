@@ -1,0 +1,80 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Pt Sans', serif;
+  width: 1280px;
+  background-color: #F2F2F2;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  display: inline-block;
+  position: relative;
+}
+
+.black {
+  background: black;
+  border-radius: 10px;
+}
+
+.red {
+  background: red;
+  border-radius: 20px;
+  transform: rotate(45deg);
+  top: 200px;
+}
+
+.blue {
+  background: blue;
+  border-radius: 20px;
+  transform: rotate(65deg);
+  top: 200px;
+  left: 200px;
+}
+
+.stroke {
+  position: relative;
+  width: 500px;
+  background: blue;
+  height: 30px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.strokeblock {
+  width: 500px;
+  height: 60px;
+  background: blue;
+  border-radius: 10px;
+}
+
+.text{
+  padding-top: 1.4%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+  animation: text 15s linear infinite;
+}
+
+.text:hover {
+  animation-play-state: paused;
+}
+
+@keyframes text {
+  from { text-indent: 100%}
+  to { text-indent: -100%}
+}
+
+.biggie {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+  }
+
+.big-blue {
+  width: 200px;
+  height: 200px;
+  background-color: #00f;
+}
