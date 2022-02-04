@@ -10,13 +10,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 $(".box3").click(function(){
-  $(this).addClass("red");
+  $(this).toggleClass("red");
   });
 });
 
 $(document).ready(function(){
 $(".box2").mouseover(function(){
-  $(this).addClass("red");
+  $(this).toggleClass("black");
   });
 });
 
