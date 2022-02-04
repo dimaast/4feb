@@ -14,10 +14,8 @@ $(".box3").click(function(){
   });
 });
 
-$(document).ready(function(){
-$(".box4").click(function(){
-  $(this).blur("box4");
-  });
+$(function() {
+	$("#draggable").draggable();
 });
 
 $(document).ready(function(){

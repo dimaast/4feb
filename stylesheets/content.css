@@ -87,3 +87,16 @@ body {
   height: 200px;
   background-color: #00f;
 }
+
+#draggable {
+	background: orange;
+	color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	cursor: move;
+}
+#draggable:hover {
+	background: #e69500;
+}
