@@ -16,9 +16,9 @@ $(".box3").click(function(){
 
 $(document).ready(function(){
 $(".box2").hover(function(){
-  $(this).addClass("black", 1800, "easeIn");
+  $(this).addClass("black", 3800, "easeInBack");
 }, function() {
-  $(this).removeClass("black", 1800, "easeBack");
+  $(this).removeClass("black", 3800, "easeInBack");
     });
 });
 
