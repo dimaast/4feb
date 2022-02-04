@@ -18,6 +18,9 @@ $(document).ready(function(){
 $(".box2").mouseover(function(){
   $(this).toggleClass("black");
   });
+  $(".box2").mouseout(function(){
+    $(this).removeClass("black");
+    });
 });
 
 $(document).ready(function(){
