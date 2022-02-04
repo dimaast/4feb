@@ -14,6 +14,7 @@ $(".box3").click(function(){
   });
 });
 
+$(document).ready(function(){
 $(".box2").hover(function(){
   $(this).addClass("black");
 }, $(this).removeClass("black");
