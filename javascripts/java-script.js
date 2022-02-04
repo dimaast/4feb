@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-	$(".box1, .box4, .box5, .box6, .box7, .box8, .box9, .box10").click(function(){
+	$(".box1, .box5, .box6, .box7, .box8, .box9, .box10").click(function(){
 		$(this).toggleClass("black", 1000, "easeInBack");
 	});
 });
@@ -11,6 +11,12 @@ $(document).ready(function(){
 $(document).ready(function(){
 $(".box3").click(function(){
   $(this).toggleClass("red");
+  });
+});
+
+$(document).ready(function(){
+$(".box4").click(function(){
+  $(this).blur("box4");
   });
 });
 
