@@ -16,16 +16,10 @@ $(".box3").click(function(){
 
 $(document).ready(function(){
 $(".box2").hover(function(){
-  $(this).addClass("black", 3800, "easeInBack");
+  $(this).addClass("black", 3800, 'easeInOutQuart');
 }, function() {
-  $(this).removeClass("black", 3800, "easeInBack");
+  $(this).removeClass("black", 3800, 'easeInOutQuart');
     });
-});
-
-$(document).ready(function(){
-$(".red").click(function(){
-  $(this).toggleClass("blue");
-  });
 });
 
 $(document).ready(function(){
