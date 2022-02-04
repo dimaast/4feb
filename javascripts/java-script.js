@@ -15,6 +15,12 @@ $(".box3").click(function(){
 });
 
 $(document).ready(function(){
+$(".box2").mouseover(function(){
+  $(this).addClass("red");
+  });
+});
+
+$(document).ready(function(){
 $(".red").click(function(){
   $(this).toggleClass("blue");
   });
