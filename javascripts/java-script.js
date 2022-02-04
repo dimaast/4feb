@@ -14,12 +14,9 @@ $(".box3").click(function(){
   });
 });
 
-$(document).ready(function(){
-$(".box2").mouseover(function(){
-  $(this).toggleClass("black");
-  });
-  $(".box2").mouseout(function(){
-    $(this).removeClass("black");
+$(".box2").hover(function(){
+  $(this).addClass("black");
+}, $(this).removeClass("black");
     });
 });
 
