@@ -20,15 +20,15 @@ $(function() {
 
 $(document).ready(function(){
 $(".box2").hover(function(){
-  $(this).addClass("black", 3800, 'easeInOutQuart');
+  $(this).addClass("black", 600, 'easeInBack');
 }, function() {
-  $(this).removeClass("black", 3800, 'easeInOutQuart');
+  $(this).removeClass("black", 600, 'easeInBack');
     });
 });
 
 $(document).ready(function(){
 	$(".stroke").click(function(){
-		$(this).toggleClass("strokeblock", 1000, "easeInBack");
+		$(this).toggleClass("strokeblock", 600, "easeInBack");
 	});
 });
 
